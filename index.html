@@ -20,7 +20,7 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <nav class="navbar navbar-expand-md navbar-light fixed " style="background-color: #e3f2fd;">
+        <nav class="navbar navbar-expand-md navbar-light fixed sticky-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">Crochet</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -31,6 +31,9 @@
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">History</a>
@@ -51,8 +54,22 @@
               <div class="carousel-item active">
                 <img src="assets/rainbow.jpeg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h3>Words</h3>
-                    <p>something something blah blah blah</p>
+                    <h3 class="slide-cap">History</h3>
+                    <p class="slide-cap">Walk the fine line between fashion and innovation</p>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <img src="assets/crochet-450724_1920.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="slide-cap">How to</h3>
+                    <p class="slide-cap">Curious on how to get started?  Let's go through some basics</p>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <img src="assets/4231c53df1ff5668132dc2ceefad8830.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="slide-cap">Gallery</h3>
+                    <p class="slide-cap">Check out my projects</p>
                 </div>
               </div>
             </div>
@@ -65,24 +82,25 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-        <div class="container">
-            <div class="row align-items-md-stretch">
-                <div class="col-md-6 my-3">
-                    <div class="h-100 p-5 text-bg-dark rounded-3 ">
-                        <h2>Check it out</h2>
-                        <p>There are tons of other things besides the Big Thing, so why don't you go take a look!</p>
-                        <button class="btn btn-outline-light" type="button">Look</button>
-                    </div>
+          <div class="mx-auto" id="main">
+                <div id="about" class= "pt-5 text-center">
+                    <h2>About</h5>
+                    <p> ... </p>
                 </div>
-                <div class="col-md-6 my-3">                                                                       
-                    <div class="h-100 p-5 bg-light border rounded-3">
-                        <h2>Last thing</h2>
-                        <p>Befire you head out, there is one last thing.  It would be a shame for you to miss it.</p>
-                        <button class="btn btn-outline-secondary" type="button">Finish</button>
-                    </div>
+                <div id="history" class="pt-5 text-center">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Origins</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Fashion</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Inovate</a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-        </div>
+          </div>
          
         <script src="" async defer></script>
     </body>
