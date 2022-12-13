@@ -20,6 +20,7 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <header>
         <nav class="navbar navbar-expand-md navbar-light fixed sticky-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">Crochet</a>
@@ -49,58 +50,114 @@
                 </div>
             </div>
          </nav>
-         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="assets/rainbow.jpeg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h3 class="slide-cap">History</h3>
-                    <p class="slide-cap">Walk the fine line between fashion and innovation</p>
-                </div>
-              </div>
-              <div class="carousel-item active">
-                <img src="assets/crochet-450724_1920.jpeg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h3 class="slide-cap">How to</h3>
-                    <p class="slide-cap">Curious on how to get started?  Let's go through some basics</p>
-                </div>
-              </div>
-              <div class="carousel-item active">
-                <img src="assets/4231c53df1ff5668132dc2ceefad8830.jpeg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h3 class="slide-cap">Gallery</h3>
-                    <p class="slide-cap">Check out my projects</p>
+        </header>
+
+         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+      
+              <div class="container">
+                <div class="carousel-caption text-start">
+                  <h1>Gallery</h1>
+                  <p>See what I've created.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#Gallery">See Gallery</a></p>
                 </div>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-          <div class="mx-auto" id="main">
-                <div id="about" class= "pt-5 text-center">
-                    <h2>About</h5>
-                    <p> ... </p>
+            <div class="carousel-item">
+              
+              <img width="100%" src="assets/rainbow.jpeg">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Another example headline.</h1>
+                  <p>Some representative placeholder content for the second slide of the carousel.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
                 </div>
-                <div id="history" class="pt-5 text-center">
-                    <ul class="nav nav-tabs">
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">Origins</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Fashion</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Inovate</a>
-                        </li>
-                    </ul>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+      
+              <div class="container">
+                <div class="carousel-caption text-end">
+                  <h1>One more for good measure.</h1>
+                  <p>Some representative placeholder content for the third slide of this carousel.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
                 </div>
+              </div>
+            </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+          <div class="mx-auto " id="main">
+                <div class="row pt-5 mx-5">
+                  <div class="col-8" id="Me">
+                    <h3>...</h3>
+                    <p>...</p>
+                  </div>
+                  <div class="col-4" id="About">
+                    <h4>About</h4>
+                    <p>...</p>
+                  </div>
+                </div>
+                <!--<div class="container py-5" id="tabs">
+                  <div class="row py-5">
+                      <div class="row">
+                          <ul class="nav nav-tabs" id="myTab" role="tablist">
+                              <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+                              </li>
+                              <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+                              </li>
+                              <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+                              </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                              <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                                  <h4 class="pt-5 fw-bold" id="about">Home</h1>
+                                  <p>
+                                    Praesent fringilla lacus eget eros bibendum molestie. Nulla sit amet
+                                    mauris sed augue tincidunt suscipit. Donec bibendum egestas egestas.
+                                    Maecenas eu urna nisi. In at lectus sollicitudin, ornare quam tempor,
+                                    dignissim justo. Sed aliquam luctus leo ultricies finibus. Morbi
+                                    lacinia justo vel eleifend feugiat.
+                                  </p>
+                          
+                                  <p></p>
+                              </div>
+                              <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                                  <h4 class="pt-5 fw-bold" id="about">Profile</h1>
+                                      <p></p>
+                                      <p></p>
+                              </div>
+                              <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                                  <h4 class="pt-5 fw-bold" id="about">Contacts</h1>
+                                      <p></p>
+                              
+                                      <p></p>
+                              </div>
+                            </div>
+                          </div>
+                  </div>
+              </div>-->
+                
+          </div>
+         
          
         <script src="" async defer></script>
     </body>
