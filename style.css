@@ -1,5 +1,5 @@
 nav{
-    background-color: #e3f2fd;
+    background-color: white;
 }
 
 .slide-cap{
@@ -7,9 +7,15 @@ nav{
 }
 
 #main{
-    background-color:#e3f2fd;
+    background-color:white;
 }
 
 footer{
-    background-color: #e3f2fd;
+    background-color: white;
+}
+h1, p{
+   color:black; 
+}
+#sec-2{
+    background-color: #E3F2FD;
 }
