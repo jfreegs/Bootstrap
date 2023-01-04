@@ -1,7 +1,9 @@
 nav{
-    background-color: white;
+    background-color: #F0F8FF;
 }
-
+.nav-item{
+    color:white;
+}
 .slide-cap{
     color: rgb(41, 41, 41);
 }
@@ -17,8 +19,8 @@ h1, p{
    color:black; 
 }
 #sec-2{
-    background-color: #E3F2FD;
+    background-color: #F0F8FF;
 }
 #sec-4{
-    background-color:#E3F2FD;
+    background-color:#F0F8FF;
 }
